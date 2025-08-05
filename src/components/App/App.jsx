@@ -5,9 +5,10 @@ import Projects from "../Projects/Projects";
 function App() {
   return (
     <>
-      <div className="h-screen">
+      <div className="h-screen w-screen">
         <NavBar />
         <Hero />
+        <Projects />
         <footer className="mt-auto">Made by Jyrex</footer>
       </div>
     </>
