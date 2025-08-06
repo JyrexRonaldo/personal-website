@@ -1,6 +1,6 @@
 function TeckStack() {
     return <div>
-        <h1>Tech Stack</h1>
+        <h1 className="text-5xl font-extrabold" >Tech Stack</h1>
     </div>
 }
 
