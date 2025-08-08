@@ -7,13 +7,16 @@ import Contact from "../Contact/Contact";
 function App() {
   return (
     <>
-      <div className="h-screen w-screen bg-[url('/wallpaper.jpg')] bg-cover text-white">
+      <div
+        className="h-screen w-screen bg-[url('/wallpaper.jpg')] bg-cover text-white flex flex-col justify-between gap-y-40 overflow-y-auto ">
         <NavBar />
         <Hero />
         <Projects />
         <TeckStack />
         <Contact />
-        <footer className="mt-auto">Made by Jyrex</footer>
+        <footer className="h-10 text-xl font-extrabold  flex justify-center items-center ">
+          Made by Jyrex
+        </footer>
       </div>
     </>
   );

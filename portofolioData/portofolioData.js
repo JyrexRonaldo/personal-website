@@ -13,29 +13,29 @@ const techStackData = [
   {
     title: "Frontend",
     items: [
-      { imgUrl: "/html5.svg", description: "HTML" },
-      { imgUrl: "/css3.svg", description: "CSS" },
-      { imgUrl: "/javascript.svg", description: "JavaScript" },
-      { imgUrl: "/reactjs.svg", description: "React.js" },
-      { imgUrl: "vitejs.svg", description: "Vite" },
-      { imgUrl: "/tailwindcss.svg", description: "TailwindCSS" },
+      { imgUrl: "/icons/html5.svg", description: "HTML" },
+      { imgUrl: "/icons/css3.svg", description: "CSS" },
+      { imgUrl: "/icons/javascript.svg", description: "JavaScript" },
+      { imgUrl: "/icons/reactjs.svg", description: "React.js" },
+      { imgUrl: "/icons/vitejs.svg", description: "Vite" },
+      { imgUrl: "/icons/tailwindcss.svg", description: "TailwindCSS" },
     ],
   },
   {
     title: "Backend",
     items: [
-      { imgUrl: "/nodejs.svg", description: "Node.js" },
-      { imgUrl: "/express.svg", description: "Express.js" },
-      { imgUrl: "/postgresql.svg", description: "PostgreSQL" },
-      { imgUrl: "/prisma.svg", description: "Prisma ORM" },
-      { imgUrl: "/jwt.svg", description: "JWT" },
+      { imgUrl: "/icons/nodejs.svg", description: "Node.js" },
+      { imgUrl: "/icons/express.svg", description: "Express.js" },
+      { imgUrl: "/icons/postgresql.svg", description: "PostgreSQL" },
+      { imgUrl: "/icons/prisma.svg", description: "Prisma ORM" },
+      { imgUrl: "/icons/jwt.svg", description: "JWT" },
     ],
   },
   {
     title: "Tools",
     items: [
-      { imgUrl: "/git.svg", description: "Git" },
-      { imgUrl: "/github.svg", description: "GitHub" },
+      { imgUrl: "/icons/git.svg", description: "Git" },
+      { imgUrl: "/icons/github.svg", description: "GitHub" },
     ],
   },
 ];
@@ -67,4 +67,4 @@ const contactData = [
   },
 ];
 
-export { projectsData, techStackData, contactData };
+export default { projectsData, techStackData, contactData };
