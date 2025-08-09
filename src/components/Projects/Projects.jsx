@@ -12,7 +12,7 @@ function Projects() {
   });
 
   return (
-    <div className="flex flex-col gap-10">
+    <div id="projects" className="flex flex-col gap-10">
       <div className="flex items-center justify-center gap-4">
         <FaCode className="text-6xl font-extrabold" />
         <h1 className="text-6xl font-extrabold">Projects</h1>

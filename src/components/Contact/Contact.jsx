@@ -5,7 +5,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
 
 function Contact() {
   return (
-    <div className="flex flex-col gap-3 items-center">
+    <div id="contact" className="flex flex-col gap-3 items-center">
       {/* <div className="flex flex-col gap-6 items-center"> */}
         <h1 className="text-6xl font-extrabold">Contact Me</h1>
         <p className="text-xl">
