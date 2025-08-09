@@ -1,8 +1,16 @@
 const projectsData = [
   {
     projectName: "Odin-Book",
-    imgUrl: "",
-    techStack: [{ iconUrl: "", name: "", bgColor: "" }],
+    imgUrl: "/tmpimg.jpeg",
+    techStack: [{ iconUrl: "/icons/reactjs.svg", name: "React.js", bgColor: "" }],
+    description: "Social media site",
+    codeUrl: "https://github.com/JyrexRonaldo/odin-book",
+    previewUrl: "https://odin-book-12ad134.netlify.app/",
+  },
+  {
+    projectName: "Odin-Book",
+    imgUrl: "/tmpimg.jpeg",
+    techStack: [{ iconUrl: "/icons/reactjs.svg", name: "React.js", bgColor: "" }],
     description: "Social media site",
     codeUrl: "https://github.com/JyrexRonaldo/odin-book",
     previewUrl: "https://odin-book-12ad134.netlify.app/",
@@ -40,31 +48,35 @@ const techStackData = [
   },
 ];
 
-const contactData = [
-  {
-    title: "Email",
-    items: [
-      { imgUrl: "/javascript", description: "JavaScript", url: "" },
-    ],
-  },
-  {
-    title: "CV",
-    items: [
-      { imgUrl: "/javascript", description: "JavaScript", url: "" },
-    ],
-  },
-  {
-    title: "GitHub",
-    items: [
-      { imgUrl: "/javascript", description: "JavaScript", url: "" },
-    ],
-  },
-  {
-    title: "LinkedIn",
-    items: [
-      { imgUrl: "/javascript", description: "JavaScript", url: "" },
-    ],
-  },
-];
+// const contactData = [
+//   {
+//     title: "Email",
+//     items: [
+//       { imgUrl: "/javascript", description: "JavaScript", url: "" },
+//     ],
+//   },
+//   {
+//     title: "CV",
+//     items: [
+//       { imgUrl: "/javascript", description: "JavaScript", url: "" },
+//     ],
+//   },
+//   {
+//     title: "GitHub",
+//     items: [
+//       { imgUrl: "/javascript", description: "JavaScript", url: "" },
+//     ],
+//   },
+//   {
+//     title: "LinkedIn",
+//     items: [
+//       { imgUrl: "/javascript", description: "JavaScript", url: "" },
+//     ],
+//   },
+// ];
 
-export default { projectsData, techStackData, contactData };
+export default {
+  projectsData,
+  techStackData,
+  // contactData
+};

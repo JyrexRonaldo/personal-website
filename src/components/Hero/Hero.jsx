@@ -11,9 +11,9 @@ function Hero() {
           <p className="text-5xl font-extrabold">I'm Jyrex</p>
           <p className="text-4xl">I am a Full Stack Developer</p>
           <div className="*:size-6 flex gap-3">
-            <FaRegFileAlt  />
             <VscGithubAlt  />
             <SlSocialLinkedin  />
+            <FaRegFileAlt  />
           </div>
         </div>
         <div>

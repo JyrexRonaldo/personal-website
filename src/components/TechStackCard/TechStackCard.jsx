@@ -1,19 +1,19 @@
 function TechStackCard({ data }) {
-  const cardItems = data.items.map((data) => {
+  const cardItems = data.items.map((data, index) => {
     return (
-      <div className="flex flex-col items-center w-24  ">
+      <div key={index} className="flex flex-col items-center w-24  ">
         <img className="w-10" src={data.imgUrl} alt={data.description} />
         <p> {data.description}</p>
       </div>
     );
   });
   return (
-    <div className="max-w-96 flex flex-col gap-5">
+    <div className="max-w-96 flex flex-col gap-5 bg-gray-700/60 rounded-lg p-5">
       <div>
         <p className="font-bold text-xl">{data.title}</p>
       </div>
       <hr />
-      <div className="flex  flex-wrap gap-x-10 gap-y-8 justify-between ">{cardItems}</div>
+      <div className="flex  flex-wrap gap-x-3 gap-y-8 justify-between ">{cardItems}</div>
     </div>
   );
 }
