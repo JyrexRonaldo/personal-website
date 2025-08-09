@@ -4,8 +4,8 @@ import { FaRegFileAlt } from "react-icons/fa";
 
 function Hero() {
   return (
-    <div className="flex flex-col items-center gap-y-40">
-      <div className="flex justify-center items-center gap-20">
+    <div className="flex flex-col items-center gap-y-40 mt-30">
+      <div className="flex justify-center flex-wrap mx-5 items-center gap-20">
         <div className="flex flex-col gap-5">
           <p className="text-3xl">Hi there</p>
           <p className="text-5xl font-extrabold">I'm Jyrex</p>
@@ -20,7 +20,7 @@ function Hero() {
           <img src="icons/developing.png" className="w-60" alt="" />
         </div>
       </div>
-      <div className="flex flex-col items-center max-w-334">
+      <div className="flex flex-col items-center px-5 gap-5">
         <p className="text-6xl font-extrabold">About me</p>
         <p className=" text-center text-xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,

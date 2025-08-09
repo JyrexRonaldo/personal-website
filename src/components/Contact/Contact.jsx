@@ -5,15 +5,16 @@ import { MdOutlineMailOutline } from "react-icons/md";
 
 function Contact() {
   return (
-    <div id="contact" className="flex flex-col gap-3 items-center">
-      {/* <div className="flex flex-col gap-6 items-center"> */}
-        <h1 className="text-6xl font-extrabold">Contact Me</h1>
-        <p className="text-xl">
-          Feel free to reach out if you're looking for a developer, have a
-          question, or just want to connect.
-        </p>
-      {/* </div> */}
-      <div className="flex justify-center gap-10 *:flex *:flex-col *:gap-1 *:rounded-2xl *:items-center *:p-5 *:w-50 *:bg-gray-700/60">
+    <div
+      id="contact"
+      className="flex flex-col gap-3 text-center scroll-mt-15 mx-5 "
+    >
+      <h1 className="text-6xl font-extrabold">Contact Me</h1>
+      <p className="text-xl">
+        Feel free to reach out if you're looking for a developer, have a
+        question, or just want to connect.
+      </p>
+      <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-10 *:flex *:flex-col *:gap-1 *:rounded-2xl *:items-center *:p-5  *:bg-gray-700/60 *:hover:scale-105 *:ease-out *:duration-300">
         <div className="">
           <a href="https://www.google.com/">
             <MdOutlineMailOutline className="size-10" />

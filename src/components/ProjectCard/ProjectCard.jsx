@@ -2,7 +2,6 @@ import { VscGithubAlt } from "react-icons/vsc";
 import { FaLink } from "react-icons/fa6";
 
 function ProjectCard({ data }) {
-  console.log(data);
   const stackDivs = data.techStack.map((data, index) => {
     return (
       <div
@@ -16,10 +15,14 @@ function ProjectCard({ data }) {
   });
 
   return (
-    <div className="grid grid-cols-[1fr_1fr] items-stretch max-w-6xl ">
-      <img className="object-fill" src={data.imgUrl} alt={data.imgUrl} />
+    <div className="lg:grid lg:grid-cols-2 items-stretch max-w-6xl">
+      <img
+        className="object-fill rounded-t-xl lg:rounded-t-none lg:rounded-l-xl "
+        src={data.imgUrl}
+        alt={data.imgUrl}
+      />
 
-      <div className="bg-gray-700/60 p-5 flex flex-col gap-3">
+      <div className="bg-gray-700/60 p-5 flex flex-col gap-3 rounded-b-xl lg:rounded-b-none lg:rounded-r-xl  lg:rounded-br-xl ">
         <p className="text-4xl font-bold">{data.projectName}</p>
         <div>{stackDivs}</div>
         <p className="font-extralight">
