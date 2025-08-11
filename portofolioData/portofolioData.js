@@ -1,19 +1,19 @@
 const projectsData = [
   {
     projectName: "Odin-Book",
-    imgUrl: "/tmpimg.jpeg",
+    imgUrl: "/project-screenshots/odinbook.png",
     techStack: [{ iconUrl: "/icons/reactjs.svg", name: "React.js", bgColor: "" }],
     description: "Social media site",
     codeUrl: "https://github.com/JyrexRonaldo/odin-book",
     previewUrl: "https://odin-book-12ad134.netlify.app/",
   },
   {
-    projectName: "Odin-Book",
-    imgUrl: "/tmpimg.jpeg",
+    projectName: "Blog Reader",
+    imgUrl: "/project-screenshots/blog.png",
     techStack: [{ iconUrl: "/icons/reactjs.svg", name: "React.js", bgColor: "" }],
     description: "Social media site",
-    codeUrl: "https://github.com/JyrexRonaldo/odin-book",
-    previewUrl: "https://odin-book-12ad134.netlify.app/",
+    codeUrl: "https://github.com/JyrexRonaldo/blog-api-users",
+    previewUrl: "https://blog-api-users.netlify.app/",
   },
 ];
 

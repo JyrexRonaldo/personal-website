@@ -10,10 +10,16 @@ function Hero() {
           <p className="text-3xl">Hi there</p>
           <p className="text-5xl font-extrabold">I'm Jyrex</p>
           <p className="text-4xl">I am a Full Stack Developer</p>
-          <div className="*:size-6 flex gap-3">
-            <VscGithubAlt  />
-            <SlSocialLinkedin  />
-            <FaRegFileAlt  />
+          <div className="**:size-6 flex gap-3">
+            <a href="https://github.com/JyrexRonaldo">
+              <VscGithubAlt  />
+            </a>
+            <a href="">
+              <SlSocialLinkedin  />
+            </a>
+            <a href="">
+              <FaRegFileAlt  />
+            </a>
           </div>
         </div>
         <div>

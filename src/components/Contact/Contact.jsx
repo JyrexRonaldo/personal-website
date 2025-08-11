@@ -28,7 +28,9 @@ function Contact() {
           <p>Download Resume</p>
         </div>
         <div className="">
-          <VscGithubAlt className="size-10" />
+          <a href="https://github.com/JyrexRonaldo">
+            <VscGithubAlt className="size-10" />
+          </a>
           <p>Github</p>
           <p>JyrexRonaldo</p>
         </div>
