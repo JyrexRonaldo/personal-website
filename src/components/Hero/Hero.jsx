@@ -10,7 +10,7 @@ function Hero() {
           <p className="text-3xl">Hi there</p>
           <p className="text-5xl font-extrabold">I'm Jyrex</p>
           <p className="text-4xl">I am a Full Stack Developer</p>
-          <div className="**:size-6 flex gap-3">
+          <div className="**:size-8 flex gap-3 *:text-slate-400 *:hover:text-white *:ease-out *:duration-300">
             <a href="https://github.com/JyrexRonaldo">
               <VscGithubAlt  />
             </a>
@@ -28,7 +28,7 @@ function Hero() {
       </div>
       <div className="flex flex-col items-center px-5 gap-5">
         <p className="text-6xl font-extrabold">About me</p>
-        <p className=" text-center text-xl">
+        <p className="text-center text-xl max-w-4xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
           iusto! Voluptatum adipisci minima minus, eveniet aliquam expedita
           exercitationem ex voluptates perspiciatis sequi, vero placeat sint

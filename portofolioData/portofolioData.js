@@ -2,15 +2,40 @@ const projectsData = [
   {
     projectName: "Odin-Book",
     imgUrl: "/project-screenshots/odinbook.png",
-    techStack: [{ iconUrl: "/icons/reactjs.svg", name: "React.js", bgColor: "" }],
-    description: "Social media site",
+    techStack: [
+      { iconUrl: "/icons/reactjs.svg", name: "React.js", bgColor: "" },
+    ],
+    description: "Full stack social media web app with authentication, friends and real-time messaging features. Users can create posts, comment and like posts and customize their profiles easily",
     codeUrl: "https://github.com/JyrexRonaldo/odin-book",
     previewUrl: "https://odin-book-12ad134.netlify.app/",
   },
   {
     projectName: "Blog Reader",
     imgUrl: "/project-screenshots/blog.png",
-    techStack: [{ iconUrl: "/icons/reactjs.svg", name: "React.js", bgColor: "" }],
+    techStack: [
+      { iconUrl: "/icons/reactjs.svg", name: "React.js", bgColor: "" },
+    ],
+    description:
+      " ",
+    codeUrl: "https://github.com/JyrexRonaldo/blog-api-users",
+    previewUrl: "https://blog-api-users.netlify.app/",
+  },
+  {
+    projectName: "Blog Writer",
+    imgUrl: "/project-screenshots/blog.png",
+    techStack: [
+      { iconUrl: "/icons/reactjs.svg", name: "React.js", bgColor: "" },
+    ],
+    description: "Social media site",
+    codeUrl: "https://github.com/JyrexRonaldo/blog-api-users",
+    previewUrl: "https://blog-api-users.netlify.app/",
+  },
+  {
+    projectName: "Blog Reader",
+    imgUrl: "/project-screenshots/blog.png",
+    techStack: [
+      { iconUrl: "/icons/reactjs.svg", name: "React.js", bgColor: "" },
+    ],
     description: "Social media site",
     codeUrl: "https://github.com/JyrexRonaldo/blog-api-users",
     previewUrl: "https://blog-api-users.netlify.app/",

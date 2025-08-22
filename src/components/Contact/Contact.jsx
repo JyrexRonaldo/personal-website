@@ -14,7 +14,7 @@ function Contact() {
         Feel free to reach out if you're looking for a developer, have a
         question, or just want to connect.
       </p>
-      <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-10 *:flex *:flex-col *:gap-1 *:rounded-2xl *:items-center *:p-5  *:bg-gray-700/60 *:hover:scale-105 *:ease-out *:duration-300">
+      <div className="flex justify-center flex-wrap *:w-50 gap-10 *:flex *:flex-col *:gap-1 *:rounded-2xl *:items-center *:p-5  *:bg-gray-700/60 *:hover:scale-105 *:ease-out *:duration-300">
         <div className="">
           <a href="https://www.google.com/">
             <MdOutlineMailOutline className="size-10" />

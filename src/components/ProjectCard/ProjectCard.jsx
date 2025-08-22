@@ -26,7 +26,7 @@ function ProjectCard({ data }) {
         <p className="text-4xl font-bold">{data.projectName}</p>
         <div>{stackDivs}</div>
         <p className="font-extralight">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pari
+          {data.description}
         </p>
         <span className="flex gap-3 *:gap-1 *:flex *:items-center *:rounded-md *:px-2 *:py-1 mt-auto">
           <span className="bg-black">
