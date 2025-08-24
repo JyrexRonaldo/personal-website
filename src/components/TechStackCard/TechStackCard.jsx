@@ -11,7 +11,7 @@ function TechStackCard({ data }) {
     );
   });
   return (
-    <div className=" flex flex-col gap-5 bg-gray-700/60 rounded-lg p-5">
+    <div className=" flex flex-col gap-5 bg-gray-700/30 rounded-lg p-5">
       <div>
         <p className="font-bold text-xl">{data.title}</p>
       </div>
