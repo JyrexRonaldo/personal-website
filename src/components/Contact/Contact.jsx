@@ -23,12 +23,14 @@ function Contact() {
           <p>jyrexgt38@gmail.com</p>
         </div>
         <div className="">
-          <FaRegFileAlt className="size-10" />
+          <a target="_blank" href="/JYREXRONALDO.pdf">
+            <FaRegFileAlt className="size-10" />
+          </a>
           <p>CV</p>
           <p>Download Resume</p>
         </div>
         <div className="">
-          <a href="https://github.com/JyrexRonaldo">
+          <a target="_blank" href="https://github.com/JyrexRonaldo">
             <VscGithubAlt className="size-10" />
           </a>
           <p>Github</p>
