@@ -15,7 +15,7 @@ function ProjectLists() {
     <>
       <div className="h-screen scroll-smooth w-screen bg-[url('/wallpaper.jpg')] bg-cover text-white flex flex-col justify-between gap-y-15 overflow-y-auto pt-15">
         <div>
-          <p className="text-center">Projects may take long to load due to prior server inactivity</p>
+          <p className="text-center text-red-700">Projects may take long to load due to prior server inactivity</p>
           <Projects projectDataCards={projectDataCards} />
         </div>
         <footer className="h-10 text-xl font-extrabold flex justify-center items-center bg-black/70 py-7">

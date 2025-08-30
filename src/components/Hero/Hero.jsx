@@ -11,13 +11,13 @@ function Hero() {
           <p className="text-5xl font-extrabold">I'm Jyrex</p>
           <p className="text-4xl">I am a Full Stack Developer</p>
           <div className="**:size-8 flex gap-3 *:text-slate-400 *:hover:text-white *:ease-out *:duration-300">
-            <a href="https://github.com/JyrexRonaldo">
+            <a target="_blank" href="https://github.com/JyrexRonaldo">
               <VscGithubAlt />
             </a>
-            <a href="">
+            <a target="_blank" href="https://www.linkedin.com/in/jyrexronaldo/">
               <SlSocialLinkedin />
             </a>
-            <a href="">
+            <a target="_blank" href="/JYREX_RONALDO_RESUME.pdf">
               <FaRegFileAlt />
             </a>
           </div>
@@ -29,9 +29,9 @@ function Hero() {
       <div className="flex flex-col items-center px-5 gap-5">
         <p className="text-6xl font-extrabold">About me</p>
         <p className="text-center text-xl max-w-4xl">
-          I'm a full-stack web developer with an apt for learning new technologies. I
-          primarily use React.js and Node.js with Express to bring ideas into
-          reality.
+          I'm a full-stack web developer with an apt for learning new
+          technologies. I primarily use React.js and Node.js with Express to
+          bring ideas into reality.
         </p>
       </div>
     </div>
