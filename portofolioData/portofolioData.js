@@ -95,6 +95,40 @@ const projectsData = [
     codeUrl: "https://github.com/JyrexRonaldo/battleship",
     previewUrl: "https://jyrexronaldo.github.io/battleship/",
   },
+  {
+    projectName: "Weather App",
+    imgUrl: "/project-screenshots/weather-app.png",
+    techStack: [
+      { iconUrl: "/icons/html5.svg", name: "HTML", bgColor: "node" },
+      { iconUrl: "/icons/css3.svg", name: "CSS", bgColor: "react" },
+      {
+        iconUrl: "/icons/javascript.svg",
+        name: "Javascript",
+        bgColor: "prisma",
+      },
+    ],
+    description:
+      "An basic weather application for telling displaying weather data at any location using data from weatherapi.com.",
+    codeUrl: "https://github.com/JyrexRonaldo/weather-app",
+    previewUrl: "https://jyrexronaldo.github.io/weather-app/",
+  },
+  {
+    projectName: "Todo List",
+    imgUrl: "/project-screenshots/todo-list.png",
+    techStack: [
+      { iconUrl: "/icons/html5.svg", name: "HTML", bgColor: "node" },
+      { iconUrl: "/icons/css3.svg", name: "CSS", bgColor: "react" },
+      {
+        iconUrl: "/icons/javascript.svg",
+        name: "Javascript",
+        bgColor: "prisma",
+      },
+    ],
+    description:
+      "An simple application for tracking todos using localstorage for data storage.",
+    codeUrl: "https://github.com/JyrexRonaldo/todo-list",
+    previewUrl: "https://jyrexronaldo.github.io/todo-list/",
+  },
 ];
 
 const techStackData = [
