@@ -22,6 +22,9 @@ function ProjectCard({ data }) {
       case "prisma":
         divBgColor = "bg-[#43464B]";
         break;
+      case "drizzle":
+        divBgColor = "bg-[#000000]";
+        break;
     }
 
     return (
@@ -50,11 +53,15 @@ function ProjectCard({ data }) {
         <span className="flex gap-3 *:gap-1 *:flex *:items-center *:rounded-md *:px-2 *:py-1 mt-auto">
           <span className="bg-black">
             <VscGithubAlt />
-            <a href={data.codeUrl} target="_blank">Code</a>
+            <a href={data.codeUrl} target="_blank">
+              Code
+            </a>
           </span>
           <span className="bg-blue-600">
             <FaLink />
-            <a href={data.previewUrl} target="_blank">Preview</a>
+            <a href={data.previewUrl} target="_blank">
+              Preview
+            </a>
           </span>
         </span>
       </div>

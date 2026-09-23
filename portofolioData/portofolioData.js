@@ -1,5 +1,33 @@
 const projectsData = [
   {
+    projectName: "Bookmark-Manager",
+    imgUrl: "/project-screenshots/bookmark-manager.png",
+    techStack: [
+      { iconUrl: "/icons/reactjs.svg", name: "React.js", bgColor: "react" },
+      { iconUrl: "/icons/nodejs.svg", name: "Node.js", bgColor: "node" },
+      { iconUrl: "/icons/express.svg", name: "Express.js", bgColor: "express" },
+      {
+        iconUrl: "/icons/postgresql.svg",
+        name: "PostgreSQL",
+        bgColor: "postgresql",
+      },
+      {
+        iconUrl: "/icons/drizzle-orm.svg",
+        name: "Drizzle ORM",
+        bgColor: "drizzle",
+      },
+      {
+        iconUrl: "/icons/typescript.svg",
+        name: "Typescript",
+        bgColor: "prisma",
+      },
+    ],
+    description:
+      "Created a bookmark manager with advanced filtering, tag system, and search. Implemented many-to-many database relationships, full-text search, and automatic metadata extraction from URLs",
+    codeUrl: "https://github.com/JyrexRonaldo/bookmark-manager-app",
+    previewUrl: "https://bookmark-manager-1332.netlify.app/",
+  },
+  {
     projectName: "Odin-Book",
     imgUrl: "/project-screenshots/odinbook.png",
     techStack: [
@@ -139,7 +167,7 @@ const techStackData = [
       { imgUrl: "/icons/css3.svg", description: "CSS" },
       { imgUrl: "/icons/javascript.svg", description: "JavaScript" },
       { imgUrl: "/icons/reactjs.svg", description: "React.js" },
-      { imgUrl: "/icons/vitejs.svg", description: "Vite" },
+      { imgUrl: "/icons/typescript.svg", description: "Typescript" },
       { imgUrl: "/icons/tailwindcss.svg", description: "TailwindCSS" },
     ],
   },
@@ -151,6 +179,7 @@ const techStackData = [
       { imgUrl: "/icons/postgresql.svg", description: "PostgreSQL" },
       { imgUrl: "/icons/prisma.svg", description: "Prisma ORM" },
       { imgUrl: "/icons/jwt.svg", description: "JWT" },
+      { imgUrl: "/icons/drizzle-orm.svg", description: "Drizzle ORM" },
     ],
   },
   {
